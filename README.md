@@ -1,7 +1,7 @@
 # TOOOD
 > 感谢star
 
-是一个出于练习目的Todo List Demo。
+是一个出于练习目的的Todo List Demo。
 
 
 
@@ -23,7 +23,7 @@
 
 首先你需要clone下来项目， 找一个合适的文件夹
 ```
-$ git clone 
+$ git clone git@github.com:hanqizheng/TodoList.git
 ```
 
 然后你需要安装项目相应的依赖
@@ -48,3 +48,4 @@ OK, everything have done.
 - [ ] 修复things list 正向删除顺序错误的Bug
 - [ ] 优化组件的设定和之间的依赖关系
 - [ ] 优化更换theme所造成项目含有大量CSS文件重复定义的情况
+- [ ] 将Things list内容存在LocalStorage或者后台
