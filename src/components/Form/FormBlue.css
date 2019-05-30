@@ -1,0 +1,43 @@
+.formBg {
+  width: 600px;
+  height: 100px;
+  margin: 20px auto 0 auto;
+  background-color:#79ceed;
+  border-radius: 15px;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formInput {
+  width: 400px;
+  height: 25px;
+  margin-top: 15px;
+  font-size: 17px;
+  border-radius: 6px;
+  padding-left: 7px;
+	border-style: none ;
+  outline: none;
+  box-shadow: none;
+}
+
+.formButton {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  color: rgb(36, 36, 36);
+  background-color: #d6f4ff;
+  border-radius: 5px;
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.formButton:hover {
+  transition-duration: 400ms;
+  background-color: #4891d6;
+}
+
+.formButton:active {
+  transition-duration: 50ms;
+  width: 110px;
+  height: 35px;
+}

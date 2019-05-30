@@ -1,0 +1,79 @@
+.listBg {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgb(221, 250, 235);
+  border-radius: 20px;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.listTitle {
+  color: rgb(60, 108, 146)
+}
+
+.tableBg {
+  width:500px;
+  margin: 0 auto;
+
+}
+
+.tableItem {
+
+  border-top: 5px;
+  border-color: black;
+}
+
+.tableItemText {
+  height: 25px;
+  width: 280px;
+  float: left;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(221, 250, 235);
+}
+
+.tableItemAction {
+  float: right;
+  padding-left: 7px;
+}
+
+.tableButtonDone {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(71, 209, 163);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.tableButtonDone:hover {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(60, 168, 132);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+
+.tableButtonEdit {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(97, 212, 207);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.tableButtonEdit:hover {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(77, 167, 162);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
